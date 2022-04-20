@@ -48,10 +48,10 @@ public class ConcreteServlet extends HttpServlet {
 		Cc.getBagCount();
 		Cc.getCost();
 		
-		// the result
+		// result
 		String result= Cc.getCalculationHTML();
 		
-		// add the result String to the request object
+		// add the result String to the request object 
 		
 		request.setAttribute("result", result);
 		
