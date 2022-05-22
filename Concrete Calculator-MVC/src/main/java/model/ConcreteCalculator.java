@@ -83,7 +83,7 @@ public class ConcreteCalculator {
 		this.unit = unit;
 	}
 	/**
-	 * @return the volume in cubic yards
+	 * @return the volume in cubic yards, changed one thing to test a merge
 	 */
 	public double getVolume() {
 		volume= length*width*(depth/12)/27;
