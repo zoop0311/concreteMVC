@@ -24,7 +24,6 @@ public class ConcreteCalculator {
 	 * @param length
 	 * @param width
 	 * @param depth
-	 * @param volume
 	 * @param unit
 	 */
 	public ConcreteCalculator(double length, double width, double depth, String unit) {
